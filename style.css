@@ -19,4 +19,5 @@ img {
     height:80vh;
     width:100vw;
     border:1px solid black;
+    display:flex;
 }
