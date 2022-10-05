@@ -18,5 +18,12 @@ form.addEventListener("submit", (e) => {
         confirmPassword.classList.add("red");
         
     }
+    if (password.value === "" || password.value == null) {
+        password.classList.add("red");
+
+    }
+    if (confirmPassword.value == "" || confirmPassword.value == null) {
+        confirmPassword.classList.add("red");
+    }
     e.preventDefault();
 });
