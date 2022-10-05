@@ -18,8 +18,21 @@ img {
 }
 
 .card {
-    height:80vh;
+    height:90vh;
     width:100vw;
     border:1px solid black;
     display:flex;
+}
+.form-section {
+    border:1px solid black;
+    height:20vh;
+
+}
+
+.top-text-container {
+    height:35vh;
+}
+
+.below-form {
+    height:35vh;
 }
