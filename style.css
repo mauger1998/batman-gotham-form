@@ -46,5 +46,23 @@
     height:75vh;
     width:55vw;
     color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
 }
 
+form {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+input {
+    background-color:transparent;
+    border:1px solid white;
+    border-radius:5px;
+    display:block;
+    width:40vw;
+}
