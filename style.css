@@ -35,4 +35,18 @@ img {
 
 .below-form {
     height:35vh;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    
+}
+
+button {
+    margin:30px;
+    padding:15px 40px;
+    border-radius:10px;
+    border:none;
+    background-color:forestgreen;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
