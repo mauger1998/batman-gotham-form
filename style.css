@@ -18,8 +18,8 @@
 }
 
 .overlay {
-    width: 80vw;
-    height:60vh;
+    width: 60vw;
+    height:80vh;
     background-color:rgba(10, 5, 5, 0.8);
     position:absolute;
     display:flex;
@@ -30,8 +30,8 @@
 
 .card {
     border:2px solid white;
-    width:75vw;
-    height:55vh;
+    width:55vw;
+    height:75vh;
     border-radius:10px;
 }
 
@@ -41,3 +41,10 @@
     font-size:25px;
     color:white;
 }
+
+.form-section {
+    height:75vh;
+    width:55vw;
+    color:white;
+}
+
