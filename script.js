@@ -5,8 +5,8 @@ const password = document.getElementById("user_password");
 const confirmPassword = document.getElementById("password");
 const last = document.getElementById("last_name");
 
+
 form.addEventListener("submit", (e) => {
-    let messages = []
     if (first.value === "" || first.value == null) {
         first.classList.add("red");
     }
@@ -25,5 +25,6 @@ form.addEventListener("submit", (e) => {
     if (confirmPassword.value == "" || confirmPassword.value == null) {
         confirmPassword.classList.add("red");
     }
+    
     e.preventDefault();
 });

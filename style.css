@@ -115,3 +115,9 @@ button {
 .red {
     border:1px solid red;
 }
+
+@media (max-width:400px) {
+    h2 {
+        font-size:10px;
+    }
+}
