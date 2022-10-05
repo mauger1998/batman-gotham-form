@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: fantasy;
 }
 
 .main-img-container {
@@ -32,4 +33,11 @@
     width:75vw;
     height:55vh;
     border-radius:10px;
+}
+
+.paragraph {
+    border:1px solid white;
+    height:100%;
+    font-size:25px;
+    color:white;
 }
