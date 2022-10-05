@@ -25,6 +25,9 @@ form.addEventListener("submit", (e) => {
     if (confirmPassword.value == "" || confirmPassword.value == null) {
         confirmPassword.classList.add("red");
     }
+    if (email.value === "" || email.value == null) {
+        email.classList.add("red");
+    }
     
     e.preventDefault();
 });
