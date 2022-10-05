@@ -25,6 +25,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    border-radius:10px;
+    animation: card-load 3s;
     
 }
 
@@ -33,10 +35,11 @@
     width:55vw;
     height:75vh;
     border-radius:10px;
+    animation: card-load 3s;
+    
 }
 
 .paragraph {
-    border:1px solid white;
     height:100%;
     font-size:25px;
     color:white;
@@ -50,7 +53,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap:50px;
+    text-align: center;
 }
 
 form {
@@ -59,10 +63,51 @@ form {
     gap:10px;
 }
 
-input {
+input{
     background-color:transparent;
     border:1px solid white;
     border-radius:5px;
     display:block;
     width:40vw;
+    color:white;
+    text-align:center;
+    animation: input-load 5s;
+    
 }
+
+input:focus {
+    outline:none;
+}
+
+#welcome {
+    font-size:20px;
+    
+}
+button {
+    padding:10px 20px;
+    background-color:grey;
+    color:white;
+    border-radius:10px;
+    animation: appear 10s;
+}
+
+@keyframes card-load {
+    0% {
+        transform: translateY(-150%);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes input-load {
+    0% {
+        width:0px;
+    }
+    100% {
+        width:40vw;
+    }
+}
+
