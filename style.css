@@ -1,0 +1,14 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main-img-container {
+    background-image: url(images/WallpaperDog-20364007.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+ 
+}
